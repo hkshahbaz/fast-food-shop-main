@@ -1,0 +1,133 @@
+.my_line { 
+    /*margin: 8px 0;*/
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 23% 0, 118% 0, from(white), to(grey), color-stop(95%, #dedede));
+}
+.right-arrow{
+	background-color: rgb(127,127,127);
+}
+.my_line_half_add { 
+    margin: 12px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 23% 0, 118% 0, from(rgb(20,31,44)), to(grey), color-stop(95%, rgb(20,31,44)));
+}
+.item{
+	background-color: white;
+	cursor: pointer;
+	animation-name: item;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes item {
+  from {
+      transform: translate3d(0px, -10px, 0px);
+  }
+  to {
+      transform: translate3d(0px, 0px, 0px);
+  }
+}
+.shadow{
+	-webkit-box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 2px 13px -2px rgba(0,0,0,0.75);
+	box-shadow: -1px 3px 18px -6px rgba(0,0,0,0.75);
+}
+.item-image{
+    width: 145px;
+    height: 110px;
+    margin-top: -13%;
+}
+.item-heading{
+	color: rgb(93,87,89);
+}
+.carousel-indicators .active {
+    background-color: transparent !important;
+}
+.carousel-inner {
+    padding-bottom: 3%;
+    /*box-shadow: 1px -21px 14px 7px rgb(180, 178, 174);*/
+}
+.carousel-item{
+	box-shadow: 1px -3px 14px 7px rgb(180, 178, 174);
+}
+button.close{
+	background-color: rgb(208, 208, 208);;
+	padding: 0px;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.fa-close{
+	font-size:15px;
+}
+.instruction-p{
+	color: rgb(150, 150, 150);
+}
+.qty-btn{
+	border:1px solid rgba(248,26,73,0.5);
+	background-color: transparent;
+	border-radius: 50%;
+    text-shadow: 0 1px 0 #fff;
+}
+.qty-btn:hover{
+	cursor: pointer;
+	background-color: rgb(248,26,73);
+}
+.qty-btn:hover > i{
+	color: white;
+	font-size: 14px;
+}
+.qty-btn>i{
+	color: rgb(248,26,73);
+	font-size: 14px;
+}
+.modal-footer{
+	background-color: rgb(13,22,31);
+}
+.border-right-footer{
+	border-right: 1px solid rgba(150, 150, 150,0.2);
+}
+.pink-color{
+	color: rgb(248,26,73);
+}
+.white-color{
+	color:white;
+}
+button:focus{
+	outline:transparent !important;
+}
+/* media quries for responsiveness */
+ @media screen and (max-width: 768px) and (min-width: 414px) {
+    
+  }
+        /* Full Screen */
+:-webkit-full-screen {
+  background-color: #FFFFF0;
+}
+
+/* Firefox syntax */
+:-moz-full-screen {
+  background-color: #FFFFF0;
+}
+
+/* IE/Edge syntax */
+:-ms-fullscreen {
+  background-color: #FFFFF0;
+}
+
+/* Standard syntax */
+:fullscreen .myCanvas{
+    width : 1400px;margin-left : -25%
+}
+.full-screen img{
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+.col-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 32.333333%;
+        flex: 0 0 32.333333%;
+        max-width: 32.333333%;
+    }

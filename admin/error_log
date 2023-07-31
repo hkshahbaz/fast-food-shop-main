@@ -1,0 +1,21 @@
+[23-Nov-2019 09:18:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/objects/admin.php:74
+Stack trace:
+#0 /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/login.php(22): Admin->login()
+#1 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/objects/admin.php on line 74
+[26-Nov-2019 07:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::forget() in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php on line 21
+[26-Nov-2019 07:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::forget() in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php on line 21
+[26-Nov-2019 08:00:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::forget() in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php on line 21
+[26-Nov-2019 08:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Admin::forget() in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/happycow/katalog/admin/forget.php on line 21
